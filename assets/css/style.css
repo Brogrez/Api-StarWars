@@ -1,0 +1,39 @@
+body{
+    font-family: 'Yanone Kaffeesatz', sans-serif; 
+}
+.titular{
+    text-align: center;
+    font-size: 3rem;
+    margin-bottom: 5rem;
+}
+.main{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    justify-content: space-between;
+    margin:5%;
+}
+.bloque{
+    background-color: aqua;
+    width: 20rem;
+    height: 7rem;
+    border-radius: 1rem;
+    padding: 1rem;
+}
+.texto{
+    margin-left: 1rem;
+    margin: 0;
+}
+.principales{
+    display: flex;
+    gap: 1rem;
+    flex-wrap: wrap;
+}
+.personaje{
+    background-color: brown;
+    height: 5rem;
+
+}
+.personaje__texto{
+    margin: 0;
+}
