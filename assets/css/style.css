@@ -1,5 +1,6 @@
 body{
-    font-family: 'Yanone Kaffeesatz', sans-serif; 
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    background-color: #F5F5F5;
 }
 .titular{
     text-align: center;
@@ -14,7 +15,7 @@ body{
     margin:5%;
 }
 .bloque{
-    background-color: aqua;
+    background-color: #FFA500;
     width: 20rem;
     height: 7rem;
     border-radius: 1rem;
@@ -30,10 +31,14 @@ body{
     flex-wrap: wrap;
 }
 .personaje{
-    background-color: brown;
+    background-color: #87CEEB;
     height: 5rem;
 
 }
 .personaje__texto{
     margin: 0;
+}
+
+.cursor{
+    cursor: pointer;
 }
